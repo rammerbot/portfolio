@@ -11141,9 +11141,23 @@ body {
   }
 }
 
+.gradient-bg {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  /* Ajusta los valores RGBA según tus necesidades */
+  padding: 20px;
+  color: white; /* Cambia el color del texto según sea necesario */
+}
+
+.shadow {
+  box-shadow: 0px 0px 2px 6px #333 !important;
+  padding: 3% 3%;
+  border-radius: 2px;
+  margin-bottom: 1%;
+}
+
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/fondo3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11159,6 +11173,7 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
+
 
 .contact-section {
   padding-top: 5rem;
